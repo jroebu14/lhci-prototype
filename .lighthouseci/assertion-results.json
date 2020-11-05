@@ -1,0 +1,66 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.7,
+    "actual": 0.6,
+    "values": [
+      0.6,
+      0.6,
+      0.59
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://www.bbc.com/arabic"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.94,
+    "values": [
+      0.94,
+      0.94,
+      0.94
+    ],
+    "operator": ">=",
+    "passed": true,
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://www.bbc.com/arabic"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.87,
+    "values": [
+      0.87,
+      0.87,
+      0.87
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "best-practices",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://www.bbc.com/arabic"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": ">=",
+    "passed": true,
+    "auditProperty": "seo",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://www.bbc.com/arabic"
+  }
+]
