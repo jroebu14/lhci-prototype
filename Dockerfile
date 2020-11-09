@@ -30,4 +30,4 @@ RUN npm install -g @lhci/cli@0.6.x
 
 COPY . .
 
-CMD ["lhci", "autorun", "--config=./lighthouse/lighthouserc.json"]
+CMD ["lhci", "autorun", "--config=./lighthouse/lighthouserc.js"]
